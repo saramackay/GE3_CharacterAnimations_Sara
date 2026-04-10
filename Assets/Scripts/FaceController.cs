@@ -50,31 +50,30 @@ public class FaceController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             ResetTargets();
-            SetTargetShape("EyebrowDown_L", 47.5f);
-            SetTargetShape("EyebrowDown_R", 47.5f);
-            SetTargetShape("Blink_L", 20f);
-            SetTargetShape("Blink_R", 20f);
-            SetTargetShape("Smile_L", 80f);
-            SetTargetShape("Smile_R", 80f);
-            SetTargetShape("Closed Mouth", 100f);
+            SetTargetShape("EyeClose_L", 100f);
+            SetTargetShape("EyeClose_R", 100f);
+            SetTargetShape("Smile_L", 100f);
+            SetTargetShape("Smile_R", 100f);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             ResetTargets();
-            SetTargetShape("EyebrowDown_L", 35f);
-            SetTargetShape("EyebrowDown_R", 35f);
-            SetTargetShape("Blink_L", 100f);
-            SetTargetShape("Blink_R", 100f);
-            SetTargetShape("Pursed Mouth", 100f);
+            SetTargetShape("EyebrowDown_L", 100f);
+            SetTargetShape("EyebrowDown_R", 100f);
+            SetTargetShape("EyeClose_L", 13f);
+            SetTargetShape("EyeClose_R", 13f);
+            SetTargetShape("MouthDown_L", 100f);
+            SetTargetShape("MouthDown_R", 100f);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             ResetTargets();
-            SetTargetShape("EyebrowUp_L", 70f);
-            SetTargetShape("EyebrowUp_R", 20f);
-            SetTargetShape("Smile", 40f);
+            SetTargetShape("Smile_L", 100f);
+            SetTargetShape("EyeClose_L", 100f);
+            SetTargetShape("EyebrowDown_L", 100f);
+            SetTargetShape("MouthDown_R", 40f);
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha0))
