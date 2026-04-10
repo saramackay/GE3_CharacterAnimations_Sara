@@ -416,7 +416,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -453,7 +453,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5000
+  m_ColorTemperature: 4025
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -472,13 +472,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.032535244, y: -0.9036183, z: 0.4213638, w: 0.069772065}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -171.169, z: 0}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -612,6 +612,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlendShapes_Idle_20260410 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1287542132067729854, guid: 355b87c8cafcf09428860c86264e8809, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287542132067729854, guid: 355b87c8cafcf09428860c86264e8809, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d2fdeaae3d8824e42ad144a60bec3999, type: 2}
+    - target: {fileID: 1630794972795428178, guid: 355b87c8cafcf09428860c86264e8809, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630794972795428178, guid: 355b87c8cafcf09428860c86264e8809, type: 3}
+      propertyPath: 'm_Materials.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d2fdeaae3d8824e42ad144a60bec3999, type: 2}
     - target: {fileID: 1630794972795428178, guid: 355b87c8cafcf09428860c86264e8809, type: 3}
       propertyPath: 'm_BlendShapeWeights.Array.data[0]'
       value: 0
@@ -644,6 +660,14 @@ PrefabInstance:
       propertyPath: 'm_BlendShapeWeights.Array.data[7]'
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2802763668615107451, guid: 355b87c8cafcf09428860c86264e8809, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2802763668615107451, guid: 355b87c8cafcf09428860c86264e8809, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d2fdeaae3d8824e42ad144a60bec3999, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
