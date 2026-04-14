@@ -7,7 +7,7 @@ public class FaceController : MonoBehaviour
     public SkinnedMeshRenderer faceRenderer;
 
     [Header("Transition Settings")]
-    public float transitionSpeed = 120f; // higher = faster transition
+    public float transitionSpeed = 200f; // higher = faster transition
 
     private Mesh faceMesh;
     private float[] targetWeights;
